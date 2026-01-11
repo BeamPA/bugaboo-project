@@ -1,15 +1,41 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import localFont from "next/font/local";
+
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
+const myFont = localFont({
+  src: [
+    {
+      path: '../fonts/sukhumvit-set/SukhumvitSet-Bold.ttf',
+      weight: '700',
+      style: 'bold',
+    },
+    {
+      path: '../fonts/sukhumvit-set/SukhumvitSet-Light.ttf',
+      weight: '300',
+      style: 'light',
+    },
+    {
+      path: '../fonts/sukhumvit-set/SukhumvitSet-Medium.ttf',
+      weight: '500',
+      style: 'medium',
+    },
+    {
+      path: '../fonts/sukhumvit-set/SukhumvitSet-SemiBold.ttf',
+      weight: '600',
+      style: 'semibold',
+    },
+    {
+      path: '../fonts/sukhumvit-set/SukhumvitSet-Text.ttf',
+      weight: '400',
+      style: 'text',
+    },
+    {
+      path: '../fonts/sukhumvit-set/SukhumvitSet-Thin.ttf',
+      weight: '100',
+      style: 'thin',
+    },
+  ],
 });
 
 export const metadata: Metadata = {
@@ -25,7 +51,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${myFont.className} antialiased`}
       >
         {children}
       </body>
