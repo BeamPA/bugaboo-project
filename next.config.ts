@@ -8,6 +8,10 @@ const nextConfig: NextConfig = {
         protocol: "https",
         hostname: "bof-shortseries.bugaboo.tv",
       },
+      {
+        protocol: "https",
+        hostname: "static.bugaboo.tv",
+      }
     ],
   },
 };
