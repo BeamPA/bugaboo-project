@@ -11,6 +11,10 @@ const nextConfig: NextConfig = {
       {
         protocol: "https",
         hostname: "static.bugaboo.tv",
+      },
+      {
+        protocol: "https",
+        hostname: "image-sapp-prod.bugaboo.tv",
       }
     ],
   },
