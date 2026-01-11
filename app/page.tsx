@@ -2,6 +2,10 @@ import TopPage from "./main/top/page";
 import HighlightsPage from "./main/highlights/page";
 import TagsPage from "./main/tags/page";
 import ChannelPage from "./main/channel/page";
+import DramaPage from "./main/drama/page";
+import ActionPage from "./main/action/page";
+import ShortseriesPage from "./main/shortseries/page";
+import OriginalsPage from "./main/originals/page";
 
 export default function Home() {
   return (
@@ -11,27 +15,27 @@ export default function Home() {
         id="highlight-section"
       >
         <div
-          id="highlight-menu"
-          className="home-highlight-menu flex flex-col lg:flex-row gap-8 w-full"
-        >
-          {/* <div
-          className="absolute left-0 top-20 h-180 w-1/2 bg-cover bg-center"
+          className="absolute left-0 top-18 h-220 w-1/2 bg-cover bg-center -z-10"
           style={{
             backgroundImage: 'url("/assets/images/bg/bg-top-left.png")',
           }}
         />
 
         <div
-          className="absolute right-0 top-20 h-180 w-1/2 bg-cover bg-center"
+          className="absolute right-0 top-18 h-220 w-1/2 bg-cover bg-center -z-10"
           style={{
             backgroundImage: 'url("/assets/images/bg/bg-top-right.png")',
           }}
-        /> */}
+        />
 
-          <div className="bg-amber-700  order-2 w-full shrink py-10 pl-4 lg:order-1 lg:w-[50%] lg:pl-8 xl:pl-0">
-            <div className="bg-pink-500 order-2 flex flex-col gap-6 lg:order-1">
-              <div className="bg-amber-200 flex flex-col gap-2">
-                <div className="bg-amber-500">
+        <div
+          id="highlight-menu"
+          className="home-highlight-menu flex flex-col lg:flex-row gap-8 w-full"
+        >
+          <div className="order-2 w-full shrink py-10 pl-4 lg:order-1 lg:w-[50%] lg:pl-8 xl:pl-0">
+            <div className="order-2 flex flex-col gap-6 lg:order-1">
+              <div className=" flex flex-col gap-2">
+                <div className="">
                   <h1 className="font-bold text-2xl leading-8 sm:text-3xl sm:leading-9 lg:text-4xl lg:leading-10 text-text-primary-900">
                     ยินดีต้อนรับสู่ BUGABOO.TV
                   </h1>
@@ -41,7 +45,7 @@ export default function Home() {
                 </div>
               </div>
 
-              <div className="bg-fuchsia-300 hidden grid-cols-1 lg:grid lg:grid-cols-2 lg:gap-x-4 lg:gap-y-4 xl:gap-x-8">
+              <div className="hidden grid-cols-1 lg:grid lg:grid-cols-2 lg:gap-x-4 lg:gap-y-4 xl:gap-x-8">
                 <div className="aspect-[21/9] w-full">
                   <a target="_blank" href="event/ipromiseiwillcomeback/">
                     <div className="bg-blue-500 relative flex h-full items-center justify-between overflow-hidden rounded-md">
@@ -160,14 +164,14 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="bg-amber-700  order-2 w-full shrink py-10 pl-4 lg:order-1 lg:w-[50%] lg:pl-8 xl:pl-0">
-            <div className="bg-amber-50">
-              <h1 className="font-bold text-2xl leading-8 sm:text-3xl sm:leading-9 lg:text-4xl lg:leading-10 text-text-primary-900">
+          <div className="order-2 w-full shrink py-10 pl-4 lg:order-1 lg:w-[50%] lg:pl-8 xl:pl-0">
+            <div className="">
+              <h1 className="font-bold text-2xl pb-4 leading-8 sm:text-3xl sm:leading-9 lg:text-4xl lg:leading-10 text-text-primary-900">
                 Live ช่อง 7HD
               </h1>
-              <div className="w-full h-40 bg-gray-300 rounded-md"></div>
-              <div className="w-full h-40 bg-gray-400 rounded-md"></div>
-              <h2 className="font-semibold text-lg lg:text-xl text-text-primary-900 mb-2">
+              <div className="w-full h-100 bg-gray-300 rounded-md mt-4"></div>
+              <div className="w-full h-20 bg-gray-800 rounded-md mt-4"></div>
+              <h2 className="font-semibold text-lg lg:text-xl text-text-primary-900 mb-2 pt-4">
                 รายการช่อง 7HD
               </h2>
             </div>
@@ -349,14 +353,15 @@ export default function Home() {
         </a>
       </section>
 
-      
-
-      
       <TopPage />
-      <HighlightsPage/>
+      <HighlightsPage />
       <TagsPage />
       <ChannelPage />
-      
+      <DramaPage />
+      <ActionPage />
+      <ShortseriesPage />
+      <div className="bg-white h-8 lg:h-14"></div>
+      <OriginalsPage />
     </main>
   );
 }

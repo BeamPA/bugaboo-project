@@ -15,7 +15,7 @@ export default function TagsPage() {
             </div>
           </a>
           <a
-            class="h-auto px-0 py-0"
+            className="h-auto px-0 py-0"
             href="/th/search/?section=&amp;keyword=%E0%B8%99%E0%B8%B1%E0%B8%81%E0%B9%81%E0%B8%AA%E0%B8%94%E0%B8%87%E0%B8%8A%E0%B9%88%E0%B8%AD%E0%B8%87+7HD&amp;type=tag"
           >
             <div className="inline-flex items-center rounded-xs lg:px-2.5 lg:py-0.5 py-px px-1.5 text-xs font-semibold transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 text-utility-brand-purple-700 bg-utility-brand-purple-50 border border-utility-brand-purple-200 leading-normal">
