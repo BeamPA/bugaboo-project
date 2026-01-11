@@ -29,7 +29,7 @@ export default function Footer() {
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
                 >
-                  <g clip-path="url(#clip0_1027_1516)">
+                  <g clipPath="url(#clip0_1027_1516)">
                     <path
                       d="M24 12.0733C24 5.40541 18.6274 0 12 0C5.37258 0 0 5.40541 0 12.0733C0 18.0994 4.3882 23.0943 10.125 24V15.5633H7.07812V12.0733H10.125V9.41343C10.125 6.38755 11.9166 4.71615 14.6576 4.71615C15.9701 4.71615 17.3438 4.95195 17.3438 4.95195V7.92313H15.8306C14.34 7.92313 13.875 8.85386 13.875 9.80958V12.0733H17.2031L16.6711 15.5633H13.875V24C19.6118 23.0943 24 18.0994 24 12.0733Z"
                       fill="#1877F2"
@@ -57,10 +57,10 @@ export default function Footer() {
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
                 >
-                  <g clip-rule="url(#clip0_2157_21756)">
+                  <g clipRule="url(#clip0_2157_21756)">
                     <path
-                      fill-rule="evenodd"
-                      clip-rule="evenodd"
+                      fillRule="evenodd"
+                      clipRule="evenodd"
                       d="M13.9457 21L8.39629 13.0901L1.44911 21H-1.48999L7.09233 11.2311L-1.48999 -1H6.05596L11.2862 6.45502L17.8395 -1H20.7786L12.5946 8.31648L21.4917 21H13.9457ZM17.2187 18.77H15.24L2.71836 1.23H4.69735L9.71236 8.25316L10.5796 9.47186L17.2187 18.77Z"
                       fill="white"
                     ></path>
@@ -106,14 +106,14 @@ export default function Footer() {
                     fill="white"
                   ></path>
                   <path
-                    fill-rule="evenodd"
-                    clip-rule="evenodd"
+                    fillRule="evenodd"
+                    clipRule="evenodd"
                     d="M10 13.5717C11.9724 13.5717 13.5714 11.9727 13.5714 10.0003C13.5714 8.02783 11.9724 6.42885 10 6.42885C8.02756 6.42885 6.42858 8.02783 6.42858 10.0003C6.42858 11.9727 8.02756 13.5717 10 13.5717ZM10 12.1431C11.1835 12.1431 12.1429 11.1837 12.1429 10.0003C12.1429 8.81681 11.1835 7.85742 10 7.85742C8.81654 7.85742 7.85715 8.81681 7.85715 10.0003C7.85715 11.1837 8.81654 12.1431 10 12.1431Z"
                     fill="white"
                   ></path>
                   <path
-                    fill-rule="evenodd"
-                    clip-rule="evenodd"
+                    fillRule="evenodd"
+                    clipRule="evenodd"
                     d="M2.85715 9.71456C2.85715 7.31434 2.85715 6.11423 3.32426 5.19746C3.73515 4.39105 4.39078 3.73542 5.19719 3.32454C6.11395 2.85742 7.31406 2.85742 9.71429 2.85742H10.2857C12.6859 2.85742 13.8861 2.85742 14.8028 3.32454C15.6092 3.73542 16.2649 4.39105 16.6757 5.19746C17.1429 6.11423 17.1429 7.31434 17.1429 9.71456V10.286C17.1429 12.6862 17.1429 13.8863 16.6757 14.8031C16.2649 15.6095 15.6092 16.2651 14.8028 16.676C13.8861 17.1431 12.6859 17.1431 10.2857 17.1431H9.71429C7.31406 17.1431 6.11395 17.1431 5.19719 16.676C4.39078 16.2651 3.73515 15.6095 3.32426 14.8031C2.85715 13.8863 2.85715 12.6862 2.85715 10.286V9.71456ZM9.71429 4.28599H10.2857C11.5094 4.28599 12.3413 4.2871 12.9842 4.33964C13.6105 4.39081 13.9308 4.48356 14.1543 4.5974C14.6919 4.87133 15.129 5.30841 15.4029 5.84602C15.5167 6.06945 15.6095 6.38974 15.6606 7.01605C15.7132 7.65903 15.7143 8.49088 15.7143 9.71456V10.286C15.7143 11.5097 15.7132 12.3415 15.6606 12.9845C15.6095 13.6108 15.5167 13.9311 15.4029 14.1545C15.129 14.6921 14.6919 15.1292 14.1543 15.4032C13.9308 15.517 13.6105 15.6097 12.9842 15.6609C12.3413 15.7135 11.5094 15.7146 10.2857 15.7146H9.71429C8.4906 15.7146 7.65876 15.7135 7.01577 15.6609C6.38946 15.6097 6.06917 15.517 5.84575 15.4032C5.30814 15.1292 4.87105 14.6921 4.59713 14.1545C4.48329 13.9311 4.39053 13.6108 4.33936 12.9845C4.28683 12.3415 4.28572 11.5097 4.28572 10.286V9.71456C4.28572 8.49088 4.28683 7.65903 4.33936 7.01605C4.39053 6.38974 4.48329 6.06945 4.59713 5.84602C4.87105 5.30841 5.30814 4.87133 5.84575 4.5974C6.06917 4.48356 6.38946 4.39081 7.01577 4.33964C7.65876 4.2871 8.4906 4.28599 9.71429 4.28599Z"
                     fill="white"
                   ></path>
@@ -126,9 +126,9 @@ export default function Footer() {
                       gradientUnits="userSpaceOnUse"
                       gradientTransform="translate(7.14286 15) rotate(-55.3758) scale(18.2283)"
                     >
-                      <stop stop-color="#B13589"></stop>
-                      <stop offset="0.79309" stop-color="#C62F94"></stop>
-                      <stop offset="1" stop-color="#8A3AC8"></stop>
+                      <stop stopColor="#B13589"></stop>
+                      <stop offset="0.79309" stopColor="#C62F94"></stop>
+                      <stop offset="1" stopColor="#8A3AC8"></stop>
                     </radialGradient>
                     <radialGradient
                       id="paint1_radial_2157_21760"
@@ -138,13 +138,13 @@ export default function Footer() {
                       gradientUnits="userSpaceOnUse"
                       gradientTransform="translate(6.42857 20.7143) rotate(-65.1363) scale(16.1387)"
                     >
-                      <stop stop-color="#E0E8B7"></stop>
-                      <stop offset="0.444662" stop-color="#FB8A2E"></stop>
-                      <stop offset="0.71474" stop-color="#E2425C"></stop>
+                      <stop stopColor="#E0E8B7"></stop>
+                      <stop offset="0.444662" stopColor="#FB8A2E"></stop>
+                      <stop offset="0.71474" stopColor="#E2425C"></stop>
                       <stop
                         offset="1"
-                        stop-color="#E2425C"
-                        stop-opacity="0"
+                        stopColor="#E2425C"
+                        stopOpacity="0"
                       ></stop>
                     </radialGradient>
                     <radialGradient
@@ -155,12 +155,12 @@ export default function Footer() {
                       gradientUnits="userSpaceOnUse"
                       gradientTransform="translate(-1.07143 0.714286) rotate(-8.1301) scale(27.7792 5.94168)"
                     >
-                      <stop offset="0.156701" stop-color="#406ADC"></stop>
-                      <stop offset="0.467799" stop-color="#6A45BE"></stop>
+                      <stop offset="0.156701" stopColor="#406ADC"></stop>
+                      <stop offset="0.467799" stopColor="#6A45BE"></stop>
                       <stop
                         offset="1"
-                        stop-color="#6A45BE"
-                        stop-opacity="0"
+                        stopColor="#6A45BE"
+                        stopOpacity="0"
                       ></stop>
                     </radialGradient>
                   </defs>
@@ -202,7 +202,7 @@ export default function Footer() {
                   fill="none"
                   xmlns="http://www.w3.org/2000/svg"
                 >
-                  <g clip-rule="url(#clip0_2157_21771)">
+                  <g clipRule="url(#clip0_2157_21771)">
                     <path
                       d="M19.6017 5.1541C19.4886 4.72861 19.2657 4.34029 18.9554 4.02798C18.6451 3.71568 18.2582 3.49035 17.8335 3.37456C16.2698 2.9541 10.0198 2.9541 10.0198 2.9541C10.0198 2.9541 3.76984 2.9541 2.2062 3.37456C1.78144 3.49035 1.39455 3.71568 1.08424 4.02798C0.773933 4.34029 0.551091 4.72861 0.438018 5.1541C0.0198365 6.72456 0.0198364 9.99956 0.0198364 9.99956C0.0198364 9.99956 0.0198365 13.2746 0.438018 14.845C0.551091 15.2705 0.773933 15.6588 1.08424 15.9711C1.39455 16.2834 1.78144 16.5088 2.2062 16.6246C3.76984 17.045 10.0198 17.045 10.0198 17.045C10.0198 17.045 16.2698 17.045 17.8335 16.6246C18.2582 16.5088 18.6451 16.2834 18.9554 15.9711C19.2657 15.6588 19.4886 15.2705 19.6017 14.845C20.0198 13.2746 20.0198 9.99956 20.0198 9.99956C20.0198 9.99956 20.0198 6.72456 19.6017 5.1541Z"
                       fill="#FF0302"
@@ -241,12 +241,12 @@ export default function Footer() {
                 </svg>
               </div>
               <div className="font-semibold text-sm lg:text-base leading-4 lg:leading-5 origin-top transform flex-col gap-3 text-[#f0f1f1] transition-all duration-1000 ease-in-out sm:flex hidden">
-                <Link href="/th/drama/">ละครมาใหม่</Link>
-                <Link href="/th/drama/all/program/dramahighlight/">
+                <Link href="https://www.bugaboo.tv/th/drama/">ละครมาใหม่</Link>
+                <Link href="https://www.bugaboo.tv/th/drama/all/program/dramahighlight/">
                   ไฮไลต์ละคร
                 </Link>
-                <Link href="/th/drama/">รวมละครย้อนหลัง</Link>
-                <Link href="/th/drama/all/drama-promote-synopsis/">
+                <Link href="https://www.bugaboo.tv/th/drama/">รวมละครย้อนหลัง</Link>
+                <Link href="https://www.bugaboo.tv/th/drama/all/drama-promote-synopsis/">
                   เรื่องย่อละคร
                 </Link>
               </div>
@@ -271,10 +271,10 @@ export default function Footer() {
                 </svg>
               </div>
               <div className="font-semibold text-sm lg:text-base leading-4 lg:leading-5 origin-top transform flex-col gap-3 text-[#f0f1f1] transition-all duration-1000 ease-in-out sm:flex hidden">
-                <Link href="/th/movies-series/">ดูหนังฟรี</Link>
-                <Link href="/th/series/all/">ซีรีส์มาใหม่</Link>
-                <Link href="/th/documentary/all/">สารคดี</Link>
-                <Link href="/th/reviews/all/program/movie-reviews/">
+                <Link href="https://www.bugaboo.tv/th/movies-series/">ดูหนังฟรี</Link>
+                <Link href="https://www.bugaboo.tv/th/series/all/">ซีรีส์มาใหม่</Link>
+                <Link href="https://www.bugaboo.tv/th/documentary/all/">สารคดี</Link>
+                <Link href="https://www.bugaboo.tv/th/reviews/all/program/movie-reviews/">
                   รีวีวหนัง
                 </Link>
               </div>
@@ -299,10 +299,10 @@ export default function Footer() {
                 </svg>
               </div>
               <div className="font-semibold text-sm lg:text-base leading-4 lg:leading-5 origin-top transform flex-col gap-3 text-[#f0f1f1] transition-all duration-1000 ease-in-out sm:flex hidden">
-                <Link href="/th/originals/">ORIGINALS มาใหม่</Link>
-                <Link href="/th/originals/all/ch7/">7HD ORIGINALS</Link>
-                <Link href="/th/originals/all/bugaboo/">BUGABOO ORIGINALS</Link>
-                <Link href="/th/original-series/all/">ORIGINALS ซีรีส์</Link>
+                <Link href="https://www.bugaboo.tv/th/originals/">ORIGINALS มาใหม่</Link>
+                <Link href="https://www.bugaboo.tv/th/originals/all/ch7/">7HD ORIGINALS</Link>
+                <Link href="https://www.bugaboo.tv/th/originals/all/bugaboo/">BUGABOO ORIGINALS</Link>
+                <Link href="https://www.bugaboo.tv/th/original-series/all/">ORIGINALS ซีรีส์</Link>
               </div>
             </div>
 
@@ -325,12 +325,12 @@ export default function Footer() {
                 </svg>
               </div>
               <div className="font-semibold text-sm lg:text-base leading-4 lg:leading-5 origin-top transform flex-col gap-3 text-[#f0f1f1] transition-all duration-1000 ease-in-out sm:flex hidden">
-                <Link href="/th/variety/">รายการมาใหม่</Link>
-                <Link href="/th/lifestyle/all/category/Travel+Destination/">
+                <Link href="https://www.bugaboo.tv/th/variety/">รายการมาใหม่</Link>
+                <Link href="https://www.bugaboo.tv/th/lifestyle/all/category/Travel+Destination/">
                   ที่เที่ยวแนะนำ
                 </Link>
-                <Link href="/th/lifestyle/all/category/Cafe/">คาเฟ่แนะนำ</Link>
-                <Link href="/th/variety/all/category/Tech+Shows/">
+                <Link href="https://www.bugaboo.tv/th/lifestyle/all/category/Cafe/">คาเฟ่แนะนำ</Link>
+                <Link href="https://www.bugaboo.tv/th/variety/all/category/Tech+Shows/">
                   เทคโนโลยี
                 </Link>
               </div>
