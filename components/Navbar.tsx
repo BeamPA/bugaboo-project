@@ -1,13 +1,11 @@
 "use client";
 
-import Link from "next/link";
+import SirikitKitiyakara from "./SirikitKitiyakara";
 
 export default function Navbar() {
   return (
     <>
-      <div className="banner-bg flex h-[46px] items-center justify-center bg-cover bg-no-repeat md:h-[72px]">
-        <div className="banner-foreground h-[46px] w-[600px] cursor-pointer bg-center bg-no-repeat md:h-[72px]"></div>
-      </div>
+    <SirikitKitiyakara />
       <nav className="bg-white my-8"></nav>
     </>
   );
