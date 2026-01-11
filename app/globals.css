@@ -33,6 +33,10 @@ div::-webkit-scrollbar {
     background-color: #17072b;
 }
 
+.bg-bg-brand-purple-solid:hover {
+  background-color: #7d5ff7;
+}
+
 .border-gradient {
   position: relative;
   border: 1px solid transparent;

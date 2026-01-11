@@ -185,7 +185,7 @@ export default function Home() {
           className="flex flex-col items-center gap-3 lg:w-1/12"
           href="/lotto/"
         >
-          <div className=" gap-2 rounded-full border-2 bg-bg-brand-purple-solid p-4 hover:bg-bg-brand-purple-solid_hover">
+          <div className=" gap-2 rounded-full border-2 bg-bg-brand-purple-solid p-4">
             <svg
               width="24"
               height="24"
@@ -212,7 +212,7 @@ export default function Home() {
           className="flex flex-col items-center gap-3 lg:w-1/12"
           href="https://shop.bugaboo.tv/"
         >
-          <div className="gap-2 rounded-full border-2 bg-bg-brand-purple-solid p-4 hover:bg-bg-brand-purple-solid_hover">
+          <div className="gap-2 rounded-full border-2 bg-bg-brand-purple-solid p-4">
             <svg
               width="24"
               height="24"
@@ -238,7 +238,7 @@ export default function Home() {
           className="flex flex-col items-center gap-3 lg:w-1/12"
           href="/drama/"
         >
-          <div className="gap-2 rounded-full border-2 bg-bg-brand-purple-solid p-4 hover:bg-bg-brand-purple-solid_hover">
+          <div className="gap-2 rounded-full border-2 bg-bg-brand-purple-solid p-4 ">
             <svg
               width="24"
               height="24"
@@ -264,7 +264,7 @@ export default function Home() {
           className="flex flex-col items-center gap-3 lg:w-1/12"
           href="/subscription-plan/"
         >
-          <div className="gap-2 rounded-full border-2 bg-bg-brand-purple-solid p-4 hover:bg-bg-brand-purple-solid_hover">
+          <div className="gap-2 rounded-full border-2 bg-bg-brand-purple-solid p-4">
             <svg
               viewBox="0 0 24 24"
               xmlns="http://www.w3.org/2000/svg"
@@ -282,7 +282,7 @@ export default function Home() {
           className="flex flex-col items-center gap-3 lg:w-1/12"
           href="/sport/"
         >
-          <div className="gap-2 rounded-full border-2 bg-bg-brand-purple-solid p-4 hover:bg-bg-brand-purple-solid_hover">
+          <div className="gap-2 rounded-full border-2 bg-bg-brand-purple-solid p-4">
             <svg
               className="size-6 stroke-white"
               viewBox="0 0 24 24"
@@ -306,7 +306,7 @@ export default function Home() {
           className="flex flex-col items-center gap-3 lg:w-1/12"
           href="/lifestyle/all/category/Travel+Destination/"
         >
-          <div className="gap-2 rounded-full border-2 bg-bg-brand-purple-solid p-4 hover:bg-bg-brand-purple-solid_hover">
+          <div className="gap-2 rounded-full border-2 bg-bg-brand-purple-solid p-4 ">
             <svg
               className="size-6 stroke-white"
               viewBox="0 0 24 24"
@@ -330,7 +330,7 @@ export default function Home() {
           className="flex flex-col items-center gap-3 lg:w-1/12"
           href="/movies-series/"
         >
-          <div className="gap-2 rounded-full border-2 bg-bg-brand-purple-solid p-4 hover:bg-bg-brand-purple-solid_hover">
+          <div className="gap-2 rounded-full border-2 bg-bg-brand-purple-solid p-4 ">
             <svg
               width="24"
               height="24"

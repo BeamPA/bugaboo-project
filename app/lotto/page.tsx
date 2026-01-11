@@ -8,7 +8,7 @@ export const metadata: Metadata = {
 export default function LottoPage() {
   return (
     <main className="min-h-screen">
-      <h1 className="text-2xl font-bold">หวย</h1>
+      <h1 className="text-2xl font-bold pt-20">ตรวจสลากกินแบ่งรัฐบาล</h1>
     </main>
   );
 }
