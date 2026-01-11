@@ -17,6 +17,18 @@
   --banner-foreground: url(/assets/images/spa/Sirikit_Kitiyakara/banner-foreground.png);
 }
 
+.text-utility-brand-purple-700 {
+    color: #7811f1;
+}
+
+.bg-utility-brand-purple-50 {
+    background-color: #c2b8ff;
+}
+
+.bg-bg-brand-purple-solid {
+    background-color: #17072b;
+}
+
 .border-gradient {
   position: relative;
   border: 1px solid transparent;

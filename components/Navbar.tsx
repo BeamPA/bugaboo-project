@@ -61,6 +61,27 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const dropdownRef = useRef<HTMLDivElement>(null);
   const buttonRef = useRef<HTMLButtonElement>(null);
+  const [top, setTop] = useState(72);
+  const [lastScrollY, setLastScrollY] = useState(0);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const currentScrollY = window.scrollY;
+
+      if (currentScrollY > lastScrollY) {
+        setTop(0);
+      } else {
+        if (currentScrollY <= 0) {
+          setTop(72);
+        }
+      }
+
+      setLastScrollY(currentScrollY);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, [lastScrollY]);
 
   useEffect(() => {
     const handleClickOutside = (event: MouseEvent) => {
@@ -85,7 +106,11 @@ export default function Navbar() {
 
   return (
     <>
-      <nav className="navbar bg-white fixed left-0 top-0 z-1000000 w-full bg-bg-primary py-2 sm:py-2.5 lg:py-4.5 border-b border-border-secondary md:top-[72px]!">
+      <nav
+        className={`navbar fixed left-0 z-50 w-full py-2 bg-white border-b border-border-secondary
+        transition-all duration-300`}
+        style={{ top: `${top}px` }}
+      >
         <div className="relative flex items-center px-4 md:px-8 xl:px-28 2xl:px-[144px]">
           <div className="flex flex-wrap items-center gap-6">
             <div className="flex flex-wrap content-center gap-2.5 sm:gap-3 items-center">
