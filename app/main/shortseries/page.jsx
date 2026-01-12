@@ -122,7 +122,7 @@ export default function ShortSeriesPage() {
           <a
             target="_self"
             className="flex items-center ml-2 gap-2 text-[#d0a8ff]"
-            href="/drama/"
+            href="/shortseries/"
           >
             <span className="font-semibold text-sm lg:text-base leading-4 lg:leading-5">
               ดูทั้งหมด

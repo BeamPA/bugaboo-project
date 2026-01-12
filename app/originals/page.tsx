@@ -9,7 +9,7 @@ export const metadata: Metadata = {
 export default function OriginalsPage() {
   return (
     <main className="min-h-screen">
-      <h1 className="text-2xl font-bold">คอนเทนต์ต้นฉบับ</h1>
+      <h1 className="text-2xl font-bold pt-20">originals</h1>
     </main>
   );
 }

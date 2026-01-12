@@ -39,80 +39,89 @@ export default function TopPage() {
       title: "เภตรานฤมิต",
       episodes: "17 ตอน",
       img: "https://image-sapp-prod.bugaboo.tv/eyJidWNrZXQiOiJzdXBlcmFwcC1wcm9kLWltYWdlIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoxMDAwLCJoZWlnaHQiOjEwMDAsImZpdCI6Imluc2lkZSJ9fSwia2V5IjoiaW50ZXItZHJhbWEvZHJhbWEvMjAyNS8wMi8yNi8xNzQwNTUxMzYxODE5LThiN2RkNDE1LTI1YzgtNGNiYy1hODE1LTgwZTNjZDhmYjc5NjU2ODc3MDY2MjQ5NjQ2MzM0MjMtbC5qcGVnIn0=",
-      href: "/th/drama/pae-tra-na-rue-mith/",
+      href: "/drama/pae-tra-na-rue-mith/",
     },
     {
       title: "ตะกรุดโทน",
       episodes: "16 ตอน",
       img: "https://image-sapp-prod.bugaboo.tv/eyJidWNrZXQiOiJzdXBlcmFwcC1wcm9kLWltYWdlIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoxMDAwLCJoZWlnaHQiOjEwMDAsImZpdCI6Imluc2lkZSJ9fSwia2V5IjoiaW50ZXItZHJhbWEvZHJhbWEvMjAyNS8wMi8yNy8xNzQwNTg5NzU3OTkzLWJlMWFmNDRkLWQwY2MtNGY3NS05M2U4LTZkNmJmMjc3ZjFkZDU1MjgzMDk3NzM5ODQ5MTU3MDgtbC5qcGVnIn0=",
-      href: "/th/drama/ta-krud-tone/",
+      href: "/drama/ta-krud-tone/",
     },
     {
       title: "เสาร์ 5",
       episodes: "18 ตอน",
       img: "https://image-sapp-prod.bugaboo.tv/eyJidWNrZXQiOiJzdXBlcmFwcC1wcm9kLWltYWdlIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoxMDAwLCJoZWlnaHQiOjEwMDAsImZpdCI6Imluc2lkZSJ9fSwia2V5IjoiaW50ZXItZHJhbWEvZHJhbWEvMjAyNS8wMi8yNi8xNzQwNTg3MzUxMDg4LWFmYzk1M2QzLTQzMWMtNDg2NS04MWMyLWY3Y2ZlOWNiMWNjNzYxOTg4MTg4NjcwNzM0MDg0OTctbC5qcGVnIn0=",
-      href: "/th/drama/sao-5/",
+      href: "/drama/sao-5/",
     },
     {
       title: "ในรอยทราย",
       episodes: "15 ตอน",
       img: "https://image-sapp-prod.bugaboo.tv/eyJidWNrZXQiOiJzdXBlcmFwcC1wcm9kLWltYWdlIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoxMDAwLCJoZWlnaHQiOjEwMDAsImZpdCI6Imluc2lkZSJ9fSwia2V5IjoiaW50ZXItZHJhbWEvZHJhbWEvMjAyNS8wMi8yNi8xNzQwNTUwMzE1MDg1LTM1NmQxOThlLWY1MGUtNGI3Yy1iNTljLWQxMGQ2ODI5YjUxMTM4Mzk2NDgzOTQyODg2Mjg1NzUtbC5qcGVnIn0=",
-      href: "/th/drama/nai-roy-tai/",
+      href: "/drama/nai-roy-tai/",
     },
     {
       title: "เพลิงพระนาง",
       episodes: "26 ตอน",
       img: "https://image-sapp-prod.bugaboo.tv/eyJidWNrZXQiOiJzdXBlcmFwcC1wcm9kLWltYWdlIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoxMDAwLCJoZWlnaHQiOjEwMDAsImZpdCI6Imluc2lkZSJ9fSwia2V5IjoiaW50ZXItZHJhbWEvZHJhbWEvMjAyNS8wMi8yNi8xNzQwNTY3NTU3NzQzLWMyNjUyMzI4LTUwY2EtNGE3ZC1iMDE3LWFhMWQxYmNlOGM3YTQwNDQ5MzM4MzcyMDQzNDczNTItbC5qcGVnIn0=",
-      href: "/th/drama/the-royal-fire/",
+      href: "/drama/the-royal-fire/",
     },
     {
       title: "มวยไทย 7 สี",
       episodes: "228 คลิป",
       img: "https://image-sapp-prod.bugaboo.tv/eyJidWNrZXQiOiJzdXBlcmFwcC1wcm9kLWltYWdlIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoxMDAwLCJoZWlnaHQiOjEwMDAsImZpdCI6Imluc2lkZSJ9fSwia2V5IjoiaW1hZ2VzLzIwMjUvMy8xNi9pbWdfMTc0MjEzNTMwMjM1OF95Znd0NmVvY3MuanBlZyJ9",
-      href: "/th/variety/muaythai7see/",
+      href: "/variety/muaythai7see/",
     },
     {
       title: "WALK in",
       episodes: "105 คลิป",
       img: "https://image-sapp-prod.bugaboo.tv/eyJidWNrZXQiOiJzdXBlcmFwcC1wcm9kLWltYWdlIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoxMDAwLCJoZWlnaHQiOjEwMDAsImZpdCI6Imluc2lkZSJ9fSwia2V5IjoiYnVnYWJvby1jYXRlZ29yeS8yMDI1LzAzLzE1LzE3NDIwNTM1Mjg4NjYtbmV3X3Byb2plY3RfMTcwMDQ2NDcxMl83NDQxLmpwZyJ9",
-      href: "/th/variety/walkin/",
+      href: "/variety/walkin/",
     },
     {
       title: "ทำดีได้ดี",
       episodes: "30 คลิป",
       img: "https://image-sapp-prod.bugaboo.tv/eyJidWNrZXQiOiJzdXBlcmFwcC1wcm9kLWltYWdlIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoxMDAwLCJoZWlnaHQiOjEwMDAsImZpdCI6Imluc2lkZSJ9fSwia2V5IjoiaW1hZ2VzLzIwMjUvNi8xOC9pbWdfMTc1MDIzNzI4NDg3N19oZ2pzZjl3dWcuanBlZyJ9",
-      href: "/th/variety/Thdeeaiddee/",
+      href: "/variety/Thdeeaiddee/",
     },
     {
       title: "เสียงจากหลุม",
       episodes: "47 ตอน",
       img: "https://image-sapp-prod.bugaboo.tv/eyJidWNrZXQiOiJzdXBlcmFwcC1wcm9kLWltYWdlIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoxMDAwLCJoZWlnaHQiOjEwMDAsImZpdCI6Imluc2lkZSJ9fSwia2V5IjoiaW1hZ2VzLzIwMjUvMy8xNy9pbWdfMTc0MjIxMTA0NDQyOF9iOXFjYXR4djIuanBlZyJ9",
-      href: "/th/originals/siangchaklum/",
+      href: "/originals/siangchaklum/",
     },
     {
       title: "ติดลมบน",
       episodes: "35 ตอน",
       img: "https://image-sapp-prod.bugaboo.tv/eyJidWNrZXQiOiJzdXBlcmFwcC1wcm9kLWltYWdlIiwiZWRpdHMiOnsicmVzaXplIjp7IndpZHRoIjoxMDAwLCJoZWlnaHQiOjEwMDAsImZpdCI6Imluc2lkZSJ9fSwia2V5IjoiaW1hZ2VzLzIwMjUvMy8xNy9pbWdfMTc0MjIwODE3MTk4NV92anU1cWlsZDMuanBlZyJ9",
-      href: "/th/originals/tidlombon/",
+      href: "/originals/tidlombon/",
     },
   ];
 
   return (
-    <div className="flex h-full w-full flex-col gap-6 py-8 pl-4 pr-0 sm:pl-8 lg:gap-10 lg:px-8 lg:py-10 xl:px-28 2xl:px-[144px]">
-      <div className="flex items-center justify-between gap-4">
-        <h3 className="font-bold text-lg leading-6 sm:text-xl sm:leading-7 lg:text-2xl lg:leading-8 text-text-primary-900">
-          Top 10 Today
-        </h3>
-
+    <div className="flex flex-col sm:px-8 lg:px-16 xl:px-28 2xl:px-[144px] gap-8">
+      <div className="flex items-center gap-2">
+        <h1 className="text-2xl text-black">Top 10 Today</h1>
         <a
-          href="/th/all/top-today/"
           target="_self"
-          className="disable flex items-center gap-2 text-button-tertiary-purple-fg lg:min-w-[98px]"
+          className="flex items-center gap-2 text-[#7811f1]"
+          href="/drama/"
         >
           <span className="font-semibold text-sm lg:text-base leading-4 lg:leading-5">
             ดูทั้งหมด
           </span>
-          <ChevronRight className="h-4 w-4 stroke-button-tertiary-purple-fg" />
+          <svg
+            viewBox="0 0 24 24"
+            fill="none"
+            className="w-4 h-4 text-[#7811f1]"
+            stroke="currentColor"
+          >
+            <path
+              d="M5 12H19M19 12L12 5M19 12L12 19"
+              strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+            ></path>
+          </svg>
         </a>
       </div>
 

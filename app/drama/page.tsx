@@ -8,7 +8,7 @@ export const metadata: Metadata = {
 export default function DramaPage() {
   return (
     <main className="min-h-screen">
-      <h1 className="text-2xl font-bold">ละคร</h1>
+      <h1 className="text-2xl font-bold pt-20">ละคร</h1>
     </main>
   );
 }

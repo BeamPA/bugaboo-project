@@ -122,7 +122,7 @@ export default function OriginalsPage() {
           <a
             target="_self"
             className="flex items-center ml-2 gap-2 text-[#C2B8FF]"
-            href="/drama/"
+            href="/originals/"
           >
             <span className="font-semibold text-sm lg:text-base leading-4 lg:leading-5">
               ดูทั้งหมด

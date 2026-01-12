@@ -107,7 +107,7 @@ export default function Navbar() {
   return (
     <>
       <nav
-        className={`navbar fixed left-0 z-50 w-full py-2 bg-white border-b border-border-secondary
+        className={`navbar fixed left-0 z-50 w-full py-4 bg-white border-b border-border-secondary
         transition-all duration-300`}
         style={{ top: `${top}px` }}
       >

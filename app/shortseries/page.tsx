@@ -8,7 +8,7 @@ export const metadata: Metadata = {
 export default function ShortseriesPage() {
   return (
     <main className="min-h-screen">
-      <h1 className="text-2xl font-bold">ช็อตซีรีส์</h1>
+      <h1 className="text-2xl font-bold pt-20">short series</h1>
     </main>
   );
 }

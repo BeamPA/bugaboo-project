@@ -8,7 +8,7 @@ export const metadata: Metadata = {
 export default function SportPage() {
   return (
     <main className="min-h-screen">
-      <h1 className="text-2xl font-bold">กีฬา</h1>
+      <h1 className="text-2xl font-bold pt-20">กีฬา</h1>
     </main>
   );
 }

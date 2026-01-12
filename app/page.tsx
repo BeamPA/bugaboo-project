@@ -48,7 +48,7 @@ export default function Home() {
               <div className="hidden grid-cols-1 lg:grid lg:grid-cols-2 lg:gap-x-4 lg:gap-y-4 xl:gap-x-8">
                 <div className="aspect-[21/9] w-full">
                   <a target="_blank" href="event/ipromiseiwillcomeback/">
-                    <div className="bg-blue-500 relative flex h-full items-center justify-between overflow-hidden rounded-md">
+                    <div className="bg-white relative flex h-full items-center justify-between overflow-hidden rounded-md">
                       <div className="absolute left-0 top-0 z-[2] h-full w-full overflow-hidden object-cover hihighilight-menu-gradient" />
 
                       <div className="absolute left-0 top-0 z-20 m-2 flex w-full gap-2">
@@ -67,8 +67,8 @@ export default function Home() {
                 </div>
 
                 <div className="aspect-[21/9] w-full">
-                  <a target="_blank" href="event/ipromiseiwillcomeback/">
-                    <div className="bg-blue-500 relative flex h-full items-center justify-between overflow-hidden rounded-md">
+                  <a target="_blank" href="/swaytheseries/">
+                    <div className="bg-white relative flex h-full items-center justify-between overflow-hidden rounded-md">
                       <div className="absolute left-0 top-0 z-[2] h-full w-full overflow-hidden object-cover hihighilight-menu-gradient" />
 
                       <div className="absolute left-0 top-0 z-20 m-2 flex w-full gap-2">
@@ -80,83 +80,83 @@ export default function Home() {
                       </div>
 
                       <div className="font-semibold text-sm lg:text-base leading-4 lg:leading-5 absolute bottom-0 left-0 z-20 m-2 w-[96%] overflow-hidden text-ellipsis whitespace-nowrap text-text-primary_on-brand">
-                        ฉันคอยเธอ2
+                        เพราะเธอใช่ไหม...ที่ทำให้ใจฉันสั่น
                       </div>
                     </div>
                   </a>
                 </div>
                 <div className="aspect-[21/9] w-full">
-                  <a target="_blank" href="event/ipromiseiwillcomeback/">
-                    <div className="bg-blue-500 relative flex h-full items-center justify-between overflow-hidden rounded-md">
+                  <a target="_blank" href="/shortseries/">
+                    <div className="bg-white relative flex h-full items-center justify-between overflow-hidden rounded-md">
                       <div className="absolute left-0 top-0 z-[2] h-full w-full overflow-hidden object-cover hihighilight-menu-gradient" />
 
                       <div className="absolute left-0 top-0 z-20 m-2 flex w-full gap-2">
                         <div className="inline-flex items-center rounded-xs border lg:px-2.5 lg:py-0.5 py-px px-1.5 text-xs font-semibold text-utility-brand-purple-700 bg-utility-brand-purple-50">
                           <div className="font-semibold text-sm lg:text-base leading-4 lg:leading-5">
-                            Live สด
+                            ดูซีรีย์
                           </div>
                         </div>
                       </div>
 
                       <div className="font-semibold text-sm lg:text-base leading-4 lg:leading-5 absolute bottom-0 left-0 z-20 m-2 w-[96%] overflow-hidden text-ellipsis whitespace-nowrap text-text-primary_on-brand">
-                        ฉันคอยเธอ3
+                        Short Series
                       </div>
                     </div>
                   </a>
                 </div>
                 <div className="aspect-[21/9] w-full">
-                  <a target="_blank" href="event/ipromiseiwillcomeback/">
-                    <div className="bg-blue-500 relative flex h-full items-center justify-between overflow-hidden rounded-md">
+                  <a target="_blank" href="/variety/yingkhuy-yingluek/">
+                    <div className="bg-white relative flex h-full items-center justify-between overflow-hidden rounded-md">
                       <div className="absolute left-0 top-0 z-[2] h-full w-full overflow-hidden object-cover hihighilight-menu-gradient" />
 
                       <div className="absolute left-0 top-0 z-20 m-2 flex w-full gap-2">
                         <div className="inline-flex items-center rounded-xs border lg:px-2.5 lg:py-0.5 py-px px-1.5 text-xs font-semibold text-utility-brand-purple-700 bg-utility-brand-purple-50">
                           <div className="font-semibold text-sm lg:text-base leading-4 lg:leading-5">
-                            Live สด
+                            ดูวาไรตี
                           </div>
                         </div>
                       </div>
 
                       <div className="font-semibold text-sm lg:text-base leading-4 lg:leading-5 absolute bottom-0 left-0 z-20 m-2 w-[96%] overflow-hidden text-ellipsis whitespace-nowrap text-text-primary_on-brand">
-                        ฉันคอยเธอ4
+                        ยิ่งคุย ยิ่งลึก
                       </div>
                     </div>
                   </a>
                 </div>
                 <div className="aspect-[21/9] w-full">
-                  <a target="_blank" href="event/ipromiseiwillcomeback/">
-                    <div className="bg-blue-500 relative flex h-full items-center justify-between overflow-hidden rounded-md">
+                  <a target="_blank" href="/originals/">
+                    <div className="bg-white relative flex h-full items-center justify-between overflow-hidden rounded-md">
                       <div className="absolute left-0 top-0 z-[2] h-full w-full overflow-hidden object-cover hihighilight-menu-gradient" />
 
                       <div className="absolute left-0 top-0 z-20 m-2 flex w-full gap-2">
                         <div className="inline-flex items-center rounded-xs border lg:px-2.5 lg:py-0.5 py-px px-1.5 text-xs font-semibold text-utility-brand-purple-700 bg-utility-brand-purple-50">
                           <div className="font-semibold text-sm lg:text-base leading-4 lg:leading-5">
-                            Live สด
+                            เกาะติด
                           </div>
                         </div>
                       </div>
 
                       <div className="font-semibold text-sm lg:text-base leading-4 lg:leading-5 absolute bottom-0 left-0 z-20 m-2 w-[96%] overflow-hidden text-ellipsis whitespace-nowrap text-text-primary_on-brand">
-                        ฉันคอยเธอ5
+                        ข่าวเลือกตั้ง
                       </div>
                     </div>
                   </a>
                 </div>
                 <div className="aspect-[21/9] w-full">
-                  <a target="_blank" href="event/ipromiseiwillcomeback/">
-                    <div className="bg-blue-500 relative flex h-full items-center justify-between overflow-hidden rounded-md">
+                  <a target="_blank" href="/originals/">
+                    <div className="bg-white relative flex h-full items-center justify-between overflow-hidden rounded-md">
                       <div className="absolute left-0 top-0 z-[2] h-full w-full overflow-hidden object-cover hihighilight-menu-gradient" />
 
                       <div className="absolute left-0 top-0 z-20 m-2 flex w-full gap-2">
                         <div className="inline-flex items-center rounded-xs border lg:px-2.5 lg:py-0.5 py-px px-1.5 text-xs font-semibold text-utility-brand-purple-700 bg-utility-brand-purple-50">
                           <div className="font-semibold text-sm lg:text-base leading-4 lg:leading-5">
-                            Live สด
+                            ดูออริจินัล
                           </div>
                         </div>
                       </div>
 
                       <div className="font-semibold text-sm lg:text-base leading-4 lg:leading-5 absolute bottom-0 left-0 z-20 m-2 w-[96%] overflow-hidden text-ellipsis whitespace-nowrap text-text-primary_on-brand">
-                        ฉันคอยเธอ6
+                        ปั๊มหัวใจ
                       </div>
                     </div>
                   </a>
